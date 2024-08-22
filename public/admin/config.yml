@@ -1,7 +1,12 @@
 backend:
   name: git-gateway
   branch: main
-  repo: github
+  repo: JeanMoraes/decap-cms
+  auth_scope: repo
+  app_id: "Ov23liR8r2JIalExorvw"
+  base_url: https://decap-cms-two.vercel.app/
+  auth_endpoint: "/admin/callback.js"
+  cms_label_prefix: "MySite"
 media_folder: "public/images"
 public_folder: "/images"
 collections:
